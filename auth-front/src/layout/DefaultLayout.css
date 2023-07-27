@@ -1,0 +1,49 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: black;
+  padding-right: 10px;
+}
+
+.nav-link {
+  display: flex;
+  list-style: none;
+  margin-right:10px;
+}
+
+.nav-link > li{
+  margin-right:30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Link{
+  text-decoration: none;
+  color:#fff;
+}
+
+.Link:active{
+  color: #055eb1;
+}
+
+.Link:hover{
+  color: #055eb1;
+}
+
+.navCont {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.imgStyle {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+

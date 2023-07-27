@@ -1,0 +1,24 @@
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+  bottom: 0; 
+  width: 100%; 
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .social-icons {
+    a {
+      color: #fff;
+      margin-right: 10px;
+
+      &:hover {
+        color: #055eb1;
+      }
+    }
+  }
+}
