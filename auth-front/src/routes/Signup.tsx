@@ -18,7 +18,7 @@ export default function Signup() {
 
   async function handleSubmit (e: React.FormEvent<HTMLFormElement>){
     e.preventDefault();
-
+    console.log(username, password, name);
     try {
       const response = await fetch(`${API_URL}/signup`, {
         method: 'POST',
@@ -26,10 +26,10 @@ export default function Signup() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          name,
           username,
-          password
-        })
+          password,
+          name
+        }),
       });
       if(response.ok){
         console.log('User created successfully');
